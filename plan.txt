@@ -1,0 +1,6 @@
+1. Main component that contains array of notes
+    - notes are devided by category
+        - notes are objects ( main component contains arr of obj )
+    - must contain add note button + that adds object into arr of obj
+    - must write to localStorage when adding note and refresh when something is added
+
