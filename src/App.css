@@ -4,13 +4,12 @@
   box-sizing: border-box;
 }
 #root {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-body {
   background-color: #213547;
 }
 .Notes--wrapper {
@@ -44,6 +43,12 @@ body {
   aspect-ratio: 1/1;
   border-radius: 50%;
   padding: 0.5rem;
+}
+.remove--all--wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .Input--component {
   width: 100%;
@@ -86,7 +91,7 @@ body {
   color: #21354777;
 }
 .Add--note--button {
-  background-color: orange;
+  background-color: #ffa500;
 }
 .formatting--error {
   color: #d13b3b;
@@ -111,15 +116,21 @@ body {
   justify-content: center;
 }
 .note--buttons {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 0.5rem;
   padding: 0.25rem;
 }
 .remove--note--buton {
   background-color: #d13b3b;
-  color: white;
+  color: #ffffff;
+}
+.green--button {
+  background-color: #30b330;
+  color: #ffffff;
 }
 @media screen and (max-width: 425px) {
   .note--div--wrapper {
