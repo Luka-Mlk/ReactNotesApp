@@ -22,5 +22,6 @@ Feel free to configure to your liking
 Simply download the repository as a zip or use `git clone`
 Enter the repository through the terminal and run
 
+- `npm install`
 - `npm run build`
 - `npm run notes`
