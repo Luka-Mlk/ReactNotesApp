@@ -10,7 +10,7 @@ The body of the item in local storage is formatted in such a way that you can ad
 
 > See /src/components/Note.jsx Line 27 & Line 29\
 > keyPropertiesUnsplit = itemFromLocal.replaceAll('"', "")\
-> const keyProperties = keyPropertiesUnsplit.split("|")\
+> const keyProperties = keyPropertiesUnsplit.split("|")
 
 This string is than further devided and by default the 0 and 1 index values represent title and body elements respectively
 the 2 index value was meant to be a note category field but i saw no need for it at the time.
